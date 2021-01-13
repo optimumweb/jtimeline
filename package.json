@@ -1,0 +1,24 @@
+{
+  "name": "jtimeline",
+  "description": "A jQuery powered horizontal timeline.",
+  "version": "1.0.0",
+  "keywords": [
+    "javascript",
+    "jquery",
+    "timeline",
+    "horizontal"
+  ],
+  "author": {
+    "name": "OptimumWeb Inc.",
+    "email": "info@optimumweb.ca",
+    "url": "https://optimumweb.ca"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^1.9.1"
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ]
+}

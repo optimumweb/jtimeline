@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>jTimeline Demo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="jtimeline.css" />
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="jtimeline.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#jtimeline-demo').jTimeline();
+        });
+    </script>
+</head>
+<body>
+<div id="jtimeline-demo" class="jtimeline">
+    <ul class="jtimeline-events">
+        <li class="jtimeline-event" data-timestamp="1591416000">
+            June 6th 2020<br />
+            Birthday
+        </li>
+
+        <li class="jtimeline-event" data-timestamp="1609477200">
+            January 1st 2021<br />
+            New Year
+        </li>
+
+        <li class="jtimeline-event is-active" data-timestamp="1610514000">
+            January 13th 2021<br />
+            Launch of jTimeline
+        </li>
+
+        <li class="jtimeline-event" data-timestamp="1613278800">
+            February 14th 2021<br />
+            Valentine's Day
+        </li>
+    </ul>
+</div>
+</body>
+</html>
