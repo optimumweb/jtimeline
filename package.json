@@ -1,5 +1,5 @@
 {
-  "name": "jtimeline",
+  "name": "@optimumweb/jtimeline",
   "description": "A jQuery powered horizontal timeline.",
   "version": "1.0.0",
   "keywords": [
@@ -8,17 +8,21 @@
     "timeline",
     "horizontal"
   ],
-  "author": {
-    "name": "OptimumWeb Inc.",
-    "email": "info@optimumweb.ca",
-    "url": "https://optimumweb.ca"
-  },
+  "author": "OptimumWeb Inc. <info@optimumweb.ca> (https://optimumweb.ca)",
   "license": "MIT",
   "dependencies": {
     "jquery": "^1.9.1"
   },
-  "files": [
-    "dist/",
-    "src/"
-  ]
+  "main": "jtimeline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optimumweb/jtimeline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/optimumweb/jtimeline/issues"
+  },
+  "homepage": "https://github.com/optimumweb/jtimeline#readme"
 }
