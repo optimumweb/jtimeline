@@ -2,6 +2,8 @@
 
 A jQuery powered horizontal timeline.
 
+![Demo](https://raw.githubusercontent.com/optimumweb/jtimeline/main/demo.png)
+
 ## Usage
 
 ```
